@@ -7,18 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D352322E2B53ADE7003A630E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352322D2B53ADE7003A630E /* RoundTextField.swift */; };
+		D35232302B53B207003A630E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352322F2B53B207003A630E /* SignInView.swift */; };
+		D35232322B53C273003A630E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232312B53C273003A630E /* MainTabView.swift */; };
+		D35232342B53CBF8003A630E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232332B53CBF8003A630E /* HomeView.swift */; };
 		D389758A2B4809A00000419B /* TrackizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975892B4809A00000419B /* TrackizerApp.swift */; };
-		D389758C2B4809A00000419B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389758B2B4809A00000419B /* ContentView.swift */; };
 		D389758E2B4809A10000419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D389758D2B4809A10000419B /* Assets.xcassets */; };
 		D38975912B4809A10000419B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38975902B4809A10000419B /* Preview Assets.xcassets */; };
+		D38975A42B480CD60000419B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38975A02B480CD60000419B /* Inter-Bold.ttf */; };
+		D38975A52B480CD60000419B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38975A12B480CD60000419B /* Inter-Medium.ttf */; };
+		D38975A62B480CD60000419B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38975A22B480CD60000419B /* Inter-Regular.ttf */; };
+		D38975A72B480CD60000419B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D38975A32B480CD60000419B /* Inter-SemiBold.ttf */; };
+		D38975AA2B480D740000419B /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975A92B480D740000419B /* UIExtension.swift */; };
+		D38975AC2B4829C90000419B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975AB2B4829C90000419B /* WelcomeView.swift */; };
+		D38975AE2B482E3D0000419B /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975AD2B482E3D0000419B /* PrimaryButton.swift */; };
+		D38975B02B482F410000419B /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975AF2B482F410000419B /* SecondaryButton.swift */; };
+		D38975B22B48307C0000419B /* SocialSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975B12B48307C0000419B /* SocialSignupView.swift */; };
+		D38975B42B4A5AA20000419B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975B32B4A5AA20000419B /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D352322D2B53ADE7003A630E /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
+		D352322F2B53B207003A630E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		D35232312B53C273003A630E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D35232332B53CBF8003A630E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D38975862B4809A00000419B /* Trackizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38975892B4809A00000419B /* TrackizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerApp.swift; sourceTree = "<group>"; };
-		D389758B2B4809A00000419B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D389758D2B4809A10000419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38975902B4809A10000419B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D38975A02B480CD60000419B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		D38975A12B480CD60000419B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		D38975A22B480CD60000419B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		D38975A32B480CD60000419B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		D38975A82B480CF50000419B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D38975A92B480D740000419B /* UIExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		D38975AB2B4829C90000419B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		D38975AD2B482E3D0000419B /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D38975AF2B482F410000419B /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		D38975B12B48307C0000419B /* SocialSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignupView.swift; sourceTree = "<group>"; };
+		D38975B32B4A5AA20000419B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +78,14 @@
 		D38975882B4809A00000419B /* Trackizer */ = {
 			isa = PBXGroup;
 			children = (
+				D38975A82B480CF50000419B /* Info.plist */,
+				D389759C2B480A760000419B /* UICommon */,
+				D389759B2B480A6F0000419B /* Common */,
+				D389759A2B480A650000419B /* Model */,
+				D38975992B480A5C0000419B /* ViewModel */,
+				D38975982B480A4D0000419B /* View */,
+				D38975972B480A330000419B /* Font */,
 				D38975892B4809A00000419B /* TrackizerApp.swift */,
-				D389758B2B4809A00000419B /* ContentView.swift */,
 				D389758D2B4809A10000419B /* Assets.xcassets */,
 				D389758F2B4809A10000419B /* Preview Content */,
 			);
@@ -65,6 +98,86 @@
 				D38975902B4809A10000419B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D38975972B480A330000419B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D38975A02B480CD60000419B /* Inter-Bold.ttf */,
+				D38975A12B480CD60000419B /* Inter-Medium.ttf */,
+				D38975A22B480CD60000419B /* Inter-Regular.ttf */,
+				D38975A32B480CD60000419B /* Inter-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		D38975982B480A4D0000419B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D389759F2B480A8D0000419B /* MainTab */,
+				D389759E2B480A860000419B /* Home */,
+				D389759D2B480A7F0000419B /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D38975992B480A5C0000419B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D389759A2B480A650000419B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D389759B2B480A6F0000419B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D389759C2B480A760000419B /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				D38975A92B480D740000419B /* UIExtension.swift */,
+				D38975AD2B482E3D0000419B /* PrimaryButton.swift */,
+				D38975AF2B482F410000419B /* SecondaryButton.swift */,
+				D352322D2B53ADE7003A630E /* RoundTextField.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		D389759D2B480A7F0000419B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D38975AB2B4829C90000419B /* WelcomeView.swift */,
+				D38975B12B48307C0000419B /* SocialSignupView.swift */,
+				D38975B32B4A5AA20000419B /* SignUpView.swift */,
+				D352322F2B53B207003A630E /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D389759E2B480A860000419B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D35232332B53CBF8003A630E /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D389759F2B480A8D0000419B /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				D35232312B53C273003A630E /* MainTabView.swift */,
+			);
+			path = MainTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D38975A72B480CD60000419B /* Inter-SemiBold.ttf in Resources */,
+				D38975A52B480CD60000419B /* Inter-Medium.ttf in Resources */,
+				D38975A62B480CD60000419B /* Inter-Regular.ttf in Resources */,
+				D38975A42B480CD60000419B /* Inter-Bold.ttf in Resources */,
 				D38975912B4809A10000419B /* Preview Assets.xcassets in Resources */,
 				D389758E2B4809A10000419B /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D389758C2B4809A00000419B /* ContentView.swift in Sources */,
+				D35232302B53B207003A630E /* SignInView.swift in Sources */,
+				D352322E2B53ADE7003A630E /* RoundTextField.swift in Sources */,
+				D38975B02B482F410000419B /* SecondaryButton.swift in Sources */,
+				D38975AA2B480D740000419B /* UIExtension.swift in Sources */,
+				D38975AC2B4829C90000419B /* WelcomeView.swift in Sources */,
+				D35232342B53CBF8003A630E /* HomeView.swift in Sources */,
+				D38975B42B4A5AA20000419B /* SignUpView.swift in Sources */,
+				D38975B22B48307C0000419B /* SocialSignupView.swift in Sources */,
+				D38975AE2B482E3D0000419B /* PrimaryButton.swift in Sources */,
 				D389758A2B4809A00000419B /* TrackizerApp.swift in Sources */,
+				D35232322B53C273003A630E /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +401,7 @@
 				DEVELOPMENT_TEAM = K8FKWBYV9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +431,7 @@
 				DEVELOPMENT_TEAM = K8FKWBYV9S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trackizer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
