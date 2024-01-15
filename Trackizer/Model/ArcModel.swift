@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct ArcModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct ArcModel: Identifiable, Equatable {
+    
+    var id: UUID = UUID()
+    var value: Double = 20
+    var color: Color = .secondaryC    
+    var statVal: Double = 0
+    
+    static func == (lhs: ArcModel, rhs: ArcModel) -> Bool {
+        return lhs.id == rhs.id
     }
-}
-
-#Preview {
-    ArcModel()
 }

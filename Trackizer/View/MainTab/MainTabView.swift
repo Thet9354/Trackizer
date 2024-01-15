@@ -9,26 +9,37 @@ import SwiftUI
 
 struct MainTabView: View {
     
-    // MARK: - PROPERTIES
     @State var selectTab: Int = 0
     
-    // MARK: - BODY
     var body: some View {
-        ZStack {
+        ZStack{
             
-            VStack {
+            if(selectTab == 0) {
+                HomeView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
+            
+            if(selectTab == 1) {
+                BudgetsView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
+            
+            
+            VStack{
                 Spacer()
                 
-                ZStack(alignment: .bottom) {
+                ZStack(alignment: .bottom){
+                    
+                    
+                    
                     ZStack(alignment: .center) {
                         Image("bottom_bar_bg")
                             .resizable()
                             .scaledToFit()
                         
-                        HStack(alignment: .center, spacing: 0) {
+                        HStack(alignment: .center, spacing: 0){
                             
                             Spacer()
-                            
                             Button {
                                 selectTab = 0
                             } label: {
@@ -40,7 +51,6 @@ struct MainTabView: View {
                             .foregroundColor( selectTab == 0 ? .white : .gray30 )
                             
                             Spacer()
-                            
                             Button {
                                 selectTab = 1
                             } label: {
@@ -56,8 +66,6 @@ struct MainTabView: View {
                                 .fill(.clear)
                                 .frame(width: 80, height: 0)
                             
-                            Spacer()
-                            
                             Button {
                                 selectTab = 2
                             } label: {
@@ -69,7 +77,6 @@ struct MainTabView: View {
                             .foregroundColor( selectTab == 2 ? .white : .gray30 )
                             
                             Spacer()
-                            
                             Button {
                                 selectTab = 3
                             } label: {
@@ -79,7 +86,6 @@ struct MainTabView: View {
                                     .padding()
                             }
                             .foregroundColor( selectTab == 3 ? .white : .gray30 )
-                            
                             Spacer()
                         }
                     }
@@ -93,11 +99,12 @@ struct MainTabView: View {
                             .padding()
                     }
                     .padding(.bottom, 6)
-                    .shadow(color: .secondaryC.opacity(0.5), radius: 6, y: 4)
+                    .shadow(color: .secondaryC.opacity(0.5), radius: 6,y: 4)
                 }
             }
             .padding(.horizontal, 20)
-            .padding(.bottom, .bottomInsets + 8)
+            .padding(.bottom , .bottomInsets)
+            
         }
         .background(Color.grayC)
         .ignoresSafeArea()

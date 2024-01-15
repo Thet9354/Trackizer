@@ -11,6 +11,16 @@
 		D35232302B53B207003A630E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352322F2B53B207003A630E /* SignInView.swift */; };
 		D35232322B53C273003A630E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232312B53C273003A630E /* MainTabView.swift */; };
 		D35232342B53CBF8003A630E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232332B53CBF8003A630E /* HomeView.swift */; };
+		D35232362B54E283003A630E /* SegmentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232352B54E283003A630E /* SegmentButton.swift */; };
+		D35232382B54E41E003A630E /* SubscriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232372B54E41E003A630E /* SubscriptionModel.swift */; };
+		D352323A2B54EA73003A630E /* SubscriptionHomeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232392B54EA73003A630E /* SubscriptionHomeRow.swift */; };
+		D352323C2B54EB08003A630E /* UpcomingBillRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352323B2B54EB08003A630E /* UpcomingBillRow.swift */; };
+		D352323E2B54ED66003A630E /* StatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352323D2B54ED66003A630E /* StatusButton.swift */; };
+		D35232402B54F07C003A630E /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352323F2B54F07C003A630E /* ArcShape.swift */; };
+		D35232432B552113003A630E /* BudgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232422B552113003A630E /* BudgetsView.swift */; };
+		D35232452B55216C003A630E /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232442B55216C003A630E /* BudgetModel.swift */; };
+		D35232472B5527B9003A630E /* BudgetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232462B5527B9003A630E /* BudgetRow.swift */; };
+		D35232492B556545003A630E /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232482B556545003A630E /* ArcModel.swift */; };
 		D389758A2B4809A00000419B /* TrackizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38975892B4809A00000419B /* TrackizerApp.swift */; };
 		D389758E2B4809A10000419B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D389758D2B4809A10000419B /* Assets.xcassets */; };
 		D38975912B4809A10000419B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38975902B4809A10000419B /* Preview Assets.xcassets */; };
@@ -31,6 +41,16 @@
 		D352322F2B53B207003A630E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		D35232312B53C273003A630E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		D35232332B53CBF8003A630E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D35232352B54E283003A630E /* SegmentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentButton.swift; sourceTree = "<group>"; };
+		D35232372B54E41E003A630E /* SubscriptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionModel.swift; sourceTree = "<group>"; };
+		D35232392B54EA73003A630E /* SubscriptionHomeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionHomeRow.swift; sourceTree = "<group>"; };
+		D352323B2B54EB08003A630E /* UpcomingBillRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingBillRow.swift; sourceTree = "<group>"; };
+		D352323D2B54ED66003A630E /* StatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusButton.swift; sourceTree = "<group>"; };
+		D352323F2B54F07C003A630E /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		D35232422B552113003A630E /* BudgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetsView.swift; sourceTree = "<group>"; };
+		D35232442B55216C003A630E /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		D35232462B5527B9003A630E /* BudgetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetRow.swift; sourceTree = "<group>"; };
+		D35232482B556545003A630E /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
 		D38975862B4809A00000419B /* Trackizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38975892B4809A00000419B /* TrackizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackizerApp.swift; sourceTree = "<group>"; };
 		D389758D2B4809A10000419B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D35232412B5520EB003A630E /* Budgets */ = {
+			isa = PBXGroup;
+			children = (
+				D35232422B552113003A630E /* BudgetsView.swift */,
+			);
+			path = Budgets;
+			sourceTree = "<group>";
+		};
 		D389757D2B4809A00000419B = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +142,7 @@
 		D38975982B480A4D0000419B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D35232412B5520EB003A630E /* Budgets */,
 				D389759F2B480A8D0000419B /* MainTab */,
 				D389759E2B480A860000419B /* Home */,
 				D389759D2B480A7F0000419B /* Login */,
@@ -131,6 +160,9 @@
 		D389759A2B480A650000419B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D35232372B54E41E003A630E /* SubscriptionModel.swift */,
+				D35232442B55216C003A630E /* BudgetModel.swift */,
+				D35232482B556545003A630E /* ArcModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +181,12 @@
 				D38975AD2B482E3D0000419B /* PrimaryButton.swift */,
 				D38975AF2B482F410000419B /* SecondaryButton.swift */,
 				D352322D2B53ADE7003A630E /* RoundTextField.swift */,
+				D35232352B54E283003A630E /* SegmentButton.swift */,
+				D35232392B54EA73003A630E /* SubscriptionHomeRow.swift */,
+				D352323B2B54EB08003A630E /* UpcomingBillRow.swift */,
+				D352323D2B54ED66003A630E /* StatusButton.swift */,
+				D352323F2B54F07C003A630E /* ArcShape.swift */,
+				D35232462B5527B9003A630E /* BudgetRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -254,17 +292,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35232452B55216C003A630E /* BudgetModel.swift in Sources */,
+				D35232472B5527B9003A630E /* BudgetRow.swift in Sources */,
+				D35232402B54F07C003A630E /* ArcShape.swift in Sources */,
+				D352323A2B54EA73003A630E /* SubscriptionHomeRow.swift in Sources */,
 				D35232302B53B207003A630E /* SignInView.swift in Sources */,
 				D352322E2B53ADE7003A630E /* RoundTextField.swift in Sources */,
 				D38975B02B482F410000419B /* SecondaryButton.swift in Sources */,
+				D35232492B556545003A630E /* ArcModel.swift in Sources */,
 				D38975AA2B480D740000419B /* UIExtension.swift in Sources */,
 				D38975AC2B4829C90000419B /* WelcomeView.swift in Sources */,
 				D35232342B53CBF8003A630E /* HomeView.swift in Sources */,
 				D38975B42B4A5AA20000419B /* SignUpView.swift in Sources */,
 				D38975B22B48307C0000419B /* SocialSignupView.swift in Sources */,
 				D38975AE2B482E3D0000419B /* PrimaryButton.swift in Sources */,
+				D352323C2B54EB08003A630E /* UpcomingBillRow.swift in Sources */,
+				D35232362B54E283003A630E /* SegmentButton.swift in Sources */,
+				D35232432B552113003A630E /* BudgetsView.swift in Sources */,
 				D389758A2B4809A00000419B /* TrackizerApp.swift in Sources */,
+				D352323E2B54ED66003A630E /* StatusButton.swift in Sources */,
 				D35232322B53C273003A630E /* MainTabView.swift in Sources */,
+				D35232382B54E41E003A630E /* SubscriptionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

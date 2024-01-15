@@ -8,9 +8,67 @@
 import SwiftUI
 
 struct BudgetRow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+        // MARK: - PROPERTIES
+        @State var bObj: BudgetModel = BudgetModel(dict: [
+            "name": "Auto & Transport",
+            "icon": "auto_&_transport",
+            "spend_amount": "25.99",
+            "total_amount": "400",
+            "left_amount": "250.01",
+            "color": Color.secondaryG
+        ])
+        
+        // MARK: - BODY
+        var body: some View {
+            
+            VStack {
+
+                HStack {
+                    
+                    Image(bObj.icon)
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.gray40)
+                    
+                    VStack {
+                        Text(bObj.name)
+                            .font(.customfont(.semibold, fontSized: 14))
+                            .foregroundColor(.white)
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                        
+                        Text("$\(bObj.left_amount) left to spend")
+                            .font(.customfont(.semibold, fontSized: 12))
+                            .foregroundColor(.gray30)
+                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                    }
+                    
+                    VStack(alignment: .trailing) {
+                        Text("$\(bObj.total_amount)")
+                            .font(.customfont(.semibold, fontSized: 14))
+                            .foregroundColor(.white)
+                            .frame(alignment: .trailing)
+                        
+                        Text("$\(bObj.left_amount)")
+                            .font(.customfont(.semibold, fontSized: 12))
+                            .foregroundColor(.gray30)
+                            .frame(alignment: .trailing)
+                    }
+                }
+                
+                ProgressView(value: bObj.perSpend, total: 1)
+                    .tint(bObj.color)
+            }
+            
+            
+            .padding(15)
+            .frame(minWidth: 0, maxWidth: .infinity)
+            .background(Color.gray60.opacity(0.2))
+            .overlay {
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray70, lineWidth: 1)
+            }
+            .cornerRadius(12)
+        }
 }
 
 #Preview {

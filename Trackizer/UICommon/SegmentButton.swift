@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct SegmentButton: View {
+    
+    // MARK: - PROPERTIES
+    @State var title: String = "Title"
+    var isActive: Bool = false
+    var onPressed: ( ()->())?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button {
+            onPressed?()
+        } label: {
+            Text(title)
+                .font(.customfont(.semibold, fontSized: 12))
+        }
+        .foregroundColor( isActive ? .white : .gray30 )
+        .frame(minWidth: 0, maxWidth: .infinity, minHeight: 42, maxHeight: 42)
+        .background(Color.gray60.opacity( isActive ? 0.2 : 0.0))
+        .overlay {
+            RoundedRectangle(cornerRadius: 12)
+                .stroke( isActive ? Color.gray70 : .clear, lineWidth: 1)
+        }
+        .cornerRadius(12)
     }
 }
 
