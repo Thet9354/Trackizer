@@ -24,6 +24,11 @@ struct MainTabView: View {
                     .frame(width: .screenWidth, height: .screenHeight)
             }
             
+            if(selectTab == 2) {
+                CalendarView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
+            
             
             VStack{
                 Spacer()
@@ -114,4 +119,5 @@ struct MainTabView: View {
 
 #Preview {
     MainTabView()
+        .environmentObject(WeekStore())
 }

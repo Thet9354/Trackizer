@@ -13,20 +13,36 @@ struct WeekHeaderView: View {
 
     var body: some View {
         HStack {
-            Text(weekStore.selectedDate.monthToString())
-                .font(.system(size: 24))
-                .fontWeight(.heavy)
-                .foregroundColor(.accentColor)
+            Text("3 subscriptions for today")
+                .font(.customfont(.semibold, fontSized: 14))
+                .foregroundColor(.gray30)
+            
+            
             
             Spacer()
             
             Button {
                 showDatePicker = true
             } label: {
-                Image(systemName: "calendar")
-                    .font(.system(size: 24))
-                    .foregroundColor(.primary)
+                HStack {
+                    Text(weekStore.selectedDate.monthToString())
+                        .font(.customfont(.semibold, fontSized: 14))
+                    
+                    Image(systemName: "chevron.down")
+                        .resizable()
+                        .frame(width: 10, height: 10)
+
+                }
             }
+            .foregroundColor(.white)
+            .padding(.horizontal, 15)
+            .padding(.vertical, 4)
+            .background(Color.gray60.opacity(0.2))
+            .overlay {
+                RoundedRectangle(cornerRadius: 16)
+                    .stroke( Color.gray70, lineWidth: 1)
+            }
+            .cornerRadius(16)
             .sheet(isPresented: $showDatePicker) {
                 VStack {
                     DatePicker("Select Date", selection: $weekStore.selectedDate, displayedComponents: [.date])
@@ -37,10 +53,15 @@ struct WeekHeaderView: View {
                         .onChange(of: weekStore.selectedDate, perform: { _ in
                             showDatePicker = false
                         })
+                        .tint(.secondaryC)
+                        .colorScheme(.dark)
+                    
+                    Spacer()
                 }
+                .background(Color.gray80)
             }
+            .ignoresSafeArea()
         }
-        .padding(.init(top: 5, leading: 10, bottom: -3, trailing: 8))
     }
 }
 

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SubscriptionCalendar: View {
+struct SubscriptionCell: View {
     @State var sObj: SubscriptionModel = SubscriptionModel(dict: [
         "name":"Spotify",
         "icon":"spotify_logo",
@@ -15,11 +15,11 @@ struct SubscriptionCalendar: View {
     
     // MARK: - BODY
     var body: some View {
-        VStack (alignment: .leading){
+        VStack(alignment: .leading, spacing: 4){
             
             Image(sObj.icon)
                 .resizable()
-                .frame(width: 40, height: 40)
+                .frame(width: 45, height: 45)
             
             Spacer()
             
@@ -38,8 +38,8 @@ struct SubscriptionCalendar: View {
         }
         .padding(15)
         .frame(minWidth: 0, maxWidth: .infinity)
-        .aspectRatio(contentMode: .fill)
-        .background(Color.gray60.opacity(0.2))
+        .aspectRatio(1, contentMode: .fill)
+        .background(Color.gray60.opacity(0.2 ))
         .overlay {
             RoundedRectangle(cornerRadius: 12)
                 .stroke(Color.gray70, lineWidth: 1)
@@ -49,5 +49,5 @@ struct SubscriptionCalendar: View {
 }
 
 #Preview {
-    SubscriptionCalendar()
+    SubscriptionCell()
 }

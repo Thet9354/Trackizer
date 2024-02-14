@@ -15,11 +15,7 @@ struct InfiniteWeekView: View {
             NavigationStack {
                 ZStack {
                     VStack {
-                        WeekHeaderView()
-                        WeeksTabView() { week in
-                            WeekView(week: week)
-                        }
-                        .frame(height: 80, alignment: .top)
+                        
                         
                         Spacer()
                     }
