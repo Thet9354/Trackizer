@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D33840722C01F93F00CB9F0C /* SubscriptionInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840712C01F93F00CB9F0C /* SubscriptionInfoView.swift */; };
+		D33840742C022FA200CB9F0C /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840732C022FA200CB9F0C /* ItemRow.swift */; };
+		D33840772C0349E200CB9F0C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840762C0349E200CB9F0C /* SettingsView.swift */; };
+		D33840792C04294C00CB9F0C /* IconItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840782C04294C00CB9F0C /* IconItemRow.swift */; };
+		D338407B2C09B1A100CB9F0C /* IconItemSwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338407A2C09B1A100CB9F0C /* IconItemSwitchRow.swift */; };
+		D338407E2C09B93C00CB9F0C /* CardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338407D2C09B93C00CB9F0C /* CardsView.swift */; };
+		D33840812C09C20900CB9F0C /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840802C09C20900CB9F0C /* CardStack.swift */; };
+		D33840832C09C45A00CB9F0C /* CreditCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33840822C09C45A00CB9F0C /* CreditCardModel.swift */; };
+		D35155292B7C716B00B420A0 /* AddSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35155282B7C716B00B420A0 /* AddSubscriptionView.swift */; };
+		D351552B2B7CA6E200B420A0 /* UIStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351552A2B7CA6E200B420A0 /* UIStateModel.swift */; };
+		D351552F2B7CA7E100B420A0 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D351552E2B7CA7E100B420A0 /* CarouselView.swift */; };
 		D352322E2B53ADE7003A630E /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352322D2B53ADE7003A630E /* RoundTextField.swift */; };
 		D35232302B53B207003A630E /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D352322F2B53B207003A630E /* SignInView.swift */; };
 		D35232322B53C273003A630E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35232312B53C273003A630E /* MainTabView.swift */; };
@@ -51,6 +62,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33840712C01F93F00CB9F0C /* SubscriptionInfoView.swift */ = {isa = PBXFileReference; indentWidth = 3; lastKnownFileType = sourcecode.swift; path = SubscriptionInfoView.swift; sourceTree = "<group>"; };
+		D33840732C022FA200CB9F0C /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		D33840762C0349E200CB9F0C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D33840782C04294C00CB9F0C /* IconItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconItemRow.swift; sourceTree = "<group>"; };
+		D338407A2C09B1A100CB9F0C /* IconItemSwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconItemSwitchRow.swift; sourceTree = "<group>"; };
+		D338407D2C09B93C00CB9F0C /* CardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsView.swift; sourceTree = "<group>"; };
+		D33840802C09C20900CB9F0C /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		D33840822C09C45A00CB9F0C /* CreditCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardModel.swift; sourceTree = "<group>"; };
+		D35155282B7C716B00B420A0 /* AddSubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubscriptionView.swift; sourceTree = "<group>"; };
+		D351552A2B7CA6E200B420A0 /* UIStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStateModel.swift; sourceTree = "<group>"; };
+		D351552E2B7CA7E100B420A0 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		D352322D2B53ADE7003A630E /* RoundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		D352322F2B53B207003A630E /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		D35232312B53C273003A630E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -107,6 +129,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D33840702C01F91300CB9F0C /* SubscriptionInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				D33840712C01F93F00CB9F0C /* SubscriptionInfoView.swift */,
+			);
+			path = SubscriptionInfoView;
+			sourceTree = "<group>";
+		};
+		D33840752C0349CC00CB9F0C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D33840762C0349E200CB9F0C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D338407C2C09B92A00CB9F0C /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				D338407D2C09B93C00CB9F0C /* CardsView.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		D338407F2C09C1F100CB9F0C /* CardStack */ = {
+			isa = PBXGroup;
+			children = (
+				D33840802C09C20900CB9F0C /* CardStack.swift */,
+			);
+			path = CardStack;
+			sourceTree = "<group>";
+		};
+		D35155272B7C713F00B420A0 /* AddSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				D35155282B7C716B00B420A0 /* AddSubscriptionView.swift */,
+			);
+			path = AddSubscription;
+			sourceTree = "<group>";
+		};
 		D35232412B5520EB003A630E /* Budgets */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +188,7 @@
 		D370A6C02B7B20B600B1A85C /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				D338407F2C09C1F100CB9F0C /* CardStack */,
 				D370A6F12B7C5B4800B1A85C /* InfiniteWeekViews */,
 			);
 			path = 3rdParty;
@@ -270,6 +333,10 @@
 		D38975982B480A4D0000419B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D338407C2C09B92A00CB9F0C /* Card */,
+				D33840752C0349CC00CB9F0C /* Settings */,
+				D33840702C01F91300CB9F0C /* SubscriptionInfoView */,
+				D35155272B7C713F00B420A0 /* AddSubscription */,
 				D370A6BB2B7B154000B1A85C /* Calendar */,
 				D35232412B5520EB003A630E /* Budgets */,
 				D389759F2B480A8D0000419B /* MainTab */,
@@ -282,6 +349,7 @@
 		D38975992B480A5C0000419B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D351552A2B7CA6E200B420A0 /* UIStateModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -292,6 +360,7 @@
 				D35232372B54E41E003A630E /* SubscriptionModel.swift */,
 				D35232442B55216C003A630E /* BudgetModel.swift */,
 				D35232482B556545003A630E /* ArcModel.swift */,
+				D33840822C09C45A00CB9F0C /* CreditCardModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -317,6 +386,10 @@
 				D352323F2B54F07C003A630E /* ArcShape.swift */,
 				D35232462B5527B9003A630E /* BudgetRow.swift */,
 				D370A6BE2B7B17BA00B1A85C /* SubscriptionCell.swift */,
+				D351552E2B7CA7E100B420A0 /* CarouselView.swift */,
+				D33840732C022FA200CB9F0C /* ItemRow.swift */,
+				D33840782C04294C00CB9F0C /* IconItemRow.swift */,
+				D338407A2C09B1A100CB9F0C /* IconItemSwitchRow.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -427,7 +500,10 @@
 				D370A7112B7C5BAF00B1A85C /* Color+Extension.swift in Sources */,
 				D35232472B5527B9003A630E /* BudgetRow.swift in Sources */,
 				D35232402B54F07C003A630E /* ArcShape.swift in Sources */,
+				D33840772C0349E200CB9F0C /* SettingsView.swift in Sources */,
 				D370A6FF2B7C5BA300B1A85C /* WeekStore.swift in Sources */,
+				D35155292B7C716B00B420A0 /* AddSubscriptionView.swift in Sources */,
+				D33840742C022FA200CB9F0C /* ItemRow.swift in Sources */,
 				D352323A2B54EA73003A630E /* SubscriptionHomeRow.swift in Sources */,
 				D370A7222B7C5BB300B1A85C /* WeekView.swift in Sources */,
 				D35232302B53B207003A630E /* SignInView.swift in Sources */,
@@ -441,6 +517,7 @@
 				D38975AC2B4829C90000419B /* WelcomeView.swift in Sources */,
 				D35232342B53CBF8003A630E /* HomeView.swift in Sources */,
 				D38975B42B4A5AA20000419B /* SignUpView.swift in Sources */,
+				D338407E2C09B93C00CB9F0C /* CardsView.swift in Sources */,
 				D370A7102B7C5BAF00B1A85C /* Date+Extension.swift in Sources */,
 				D370A6BD2B7B160900B1A85C /* CalendarView.swift in Sources */,
 				D38975B22B48307C0000419B /* SocialSignupView.swift in Sources */,
@@ -451,12 +528,19 @@
 				D352323C2B54EB08003A630E /* UpcomingBillRow.swift in Sources */,
 				D370A70E2B7C5BAF00B1A85C /* TimeDirection.swift in Sources */,
 				D35232362B54E283003A630E /* SegmentButton.swift in Sources */,
+				D33840792C04294C00CB9F0C /* IconItemRow.swift in Sources */,
+				D33840832C09C45A00CB9F0C /* CreditCardModel.swift in Sources */,
 				D35232432B552113003A630E /* BudgetsView.swift in Sources */,
 				D389758A2B4809A00000419B /* TrackizerApp.swift in Sources */,
+				D351552F2B7CA7E100B420A0 /* CarouselView.swift in Sources */,
+				D33840722C01F93F00CB9F0C /* SubscriptionInfoView.swift in Sources */,
 				D352323E2B54ED66003A630E /* StatusButton.swift in Sources */,
+				D338407B2C09B1A100CB9F0C /* IconItemSwitchRow.swift in Sources */,
 				D35232322B53C273003A630E /* MainTabView.swift in Sources */,
 				D370A7202B7C5BB300B1A85C /* WeeksTabView.swift in Sources */,
 				D35232382B54E41E003A630E /* SubscriptionModel.swift in Sources */,
+				D351552B2B7CA6E200B420A0 /* UIStateModel.swift in Sources */,
+				D33840812C09C20900CB9F0C /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

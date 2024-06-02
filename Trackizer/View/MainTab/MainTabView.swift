@@ -29,6 +29,10 @@ struct MainTabView: View {
                     .frame(width: .screenWidth, height: .screenHeight)
             }
             
+            if(selectTab == 3) {
+                CardsView()
+                    .frame(width: .screenWidth, height: .screenHeight)
+            }
             
             VStack{
                 Spacer()
@@ -117,7 +121,9 @@ struct MainTabView: View {
     }
 }
 
-#Preview {
-    MainTabView()
-        .environmentObject(WeekStore())
+struct MainTabView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTabView()
+            .environmentObject(WeekStore())
+    }
 }

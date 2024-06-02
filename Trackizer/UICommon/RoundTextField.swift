@@ -13,6 +13,7 @@ struct RoundTextField: View {
     @State var title: String = "Title"
     @Binding var text: String
     @State var keyboardType: UIKeyboardType = .default
+    var textAlign: Alignment = .leading
     var isPassword: Bool = false
     
     // MARK: - BODY
@@ -21,7 +22,7 @@ struct RoundTextField: View {
             Text(title)
                 .multilineTextAlignment(.leading)
                 .font(.customfont(.regular, fontSized: 14))
-                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                .frame(minWidth: 0, maxWidth: .infinity, alignment: textAlign)
                 .foregroundColor(.gray50)
                 .padding(.bottom, 4)
             

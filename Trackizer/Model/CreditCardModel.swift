@@ -7,12 +7,9 @@
 
 import SwiftUI
 
-struct CreditCardModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    CreditCardModel()
+struct CreditCardModel: Identifiable {
+    var id: UUID = UUID()
+    var name: String
+    var number: String = ""
+    var month_year: String = ""
 }
